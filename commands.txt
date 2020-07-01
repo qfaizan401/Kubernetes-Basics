@@ -1,6 +1,7 @@
 Kubernetes Important Commands
 
+--Post Installation Commands--
 1- minikube start
 2- minikube status
 3- kubectl cluster-info  (Check for the cluster that is developed by Kubernetes)
-4- 
+
