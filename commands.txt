@@ -3,5 +3,10 @@ Kubernetes Important Commands
 --Post Installation Commands--
 1- minikube start
 2- minikube status
-3- kubectl cluster-info  (Check for the cluster that is developed by Kubernetes)
+3- kubectl cluster-info  (Check for the cluster that is developed by Kubernetes <MINIKube>)
 
+--Node--
+1- kubectl get nodes (To list down nodes in Kubernetes cluster)
+2- kubectl describe nodes <OR> kubectl describe nodes<node_name> (To check the insights/details of node(s))
+
+--Alias--
