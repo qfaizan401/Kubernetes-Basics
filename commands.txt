@@ -11,4 +11,5 @@ Kubernetes Important Commands
 
 --Alias--
 (To shortend long commands)
-For Example: 
+1- alias <short_command>="<actual_command>"
+For Example: alias kgn="kubectl get nodes"
