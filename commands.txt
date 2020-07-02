@@ -10,3 +10,5 @@ Kubernetes Important Commands
 2- kubectl describe nodes <OR> kubectl describe nodes<node_name> (To check the insights/details of node(s))
 
 --Alias--
+(To shortend long commands)
+For Example: 
