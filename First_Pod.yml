@@ -6,5 +6,9 @@ spec:
   containers:
   - name: container1
     image: aamirpinger/helloworld:latest
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
     ports:
     - containerPort: 80
