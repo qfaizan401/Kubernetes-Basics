@@ -7,4 +7,4 @@ spec:
   - name: Container1
     image: aamirpinger/helloworld:latest
     ports:
-    - 
+    - containerPort: 80
