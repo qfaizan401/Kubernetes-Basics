@@ -15,3 +15,4 @@ Kubernetes Important Commands
 For Example: alias kgn="kubectl get nodes"
 
 --Pods--
+1- kubectl create -f <file_name> (To create any resource in Kubernetes)
