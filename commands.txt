@@ -16,3 +16,4 @@ For Example: alias kgn="kubectl get nodes"
 
 --Pods--
 1- kubectl create -f <file_name> (To create any resource in Kubernetes)
+2- kubectl get <resource_name> (To list down any resource in Kubernetes)
