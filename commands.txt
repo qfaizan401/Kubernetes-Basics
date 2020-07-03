@@ -36,3 +36,11 @@ For Example: kubectl run mysecondpod --image=aamirpinger/helloworld:latest --por
 1- kubectl get po --show-labels
 2- kubectl get po -L <key(s)>
 For Example: kubectl get po -L phase,type,run
+
+--Labelling Pods at Runtime--
+1- kubectl label <resource> <resource_name> <key1=value1> <key2-value2> <...>
+For Example: kubectl label pods myfirstpod app=helloworld type=UI
+2- To overwrite an existing key value pair we simply put --overwrite
+For Example: kubectl label pods myfirstpod app=helloworld type=backend --overwrite
+3- kubectl label pod <Pod_Name> <key_to_remove>-
+For Example: kubectl label pod myfirstpod app-
