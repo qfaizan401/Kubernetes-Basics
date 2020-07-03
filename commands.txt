@@ -17,3 +17,9 @@ For Example: alias kgn="kubectl get nodes"
 --Pods--
 1- kubectl create -f <file_name> (To create any resource in Kubernetes)
 2- kubectl get <resource_name> (To list down any resource in Kubernetes)
+3- kubectl describe <resource_name> (To check the insights/details of any resource)
+4- kubectl get pods myfirstpod -o yaml (Show to complete YAML file created by Kubernetes)
+
+--Port Frowarding--
+1- kubectl port-forward <pod_name> <local_port:Application_port>myfirstpod 3000:80
+For Example: kubectl port-forward myfirstpod 3000:80
