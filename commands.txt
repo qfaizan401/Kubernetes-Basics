@@ -32,3 +32,7 @@ For Example: kubectl run mysecondpod --image=aamirpinger/helloworld:latest --por
 1- kubectl run <Pod_Name> --image=<Image_Name:Tag> --port=<Port_Number> --restart=Never --labels=<key1=value1,key2=value2,key3=value3,...>
 For Example: kubectl run mysecondpod --image=aamirpinger/helloworld:latest --port=80 --restart=Never --labels=type=frontend,phase=development
 
+--Pods Listing with Labels--
+1- kubectl get po --show-labels
+2- kubectl get po -L <key(s)>
+For Example: kubectl get po -L phase,type,run
