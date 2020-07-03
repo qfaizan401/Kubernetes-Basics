@@ -27,3 +27,8 @@ For Example: kubectl port-forward myfirstpod 3000:80
 --Creating Pods using CLI--
 1- kubectl run <Pod_Name> --image=<Image_Name:Tag> --port=<Port_Number> --restart=Never
 For Example: kubectl run mysecondpod --image=aamirpinger/helloworld:latest --port=80 --restart=Never
+
+--Creating Pods with Labels using CLI--
+1- kubectl run <Pod_Name> --image=<Image_Name:Tag> --port=<Port_Number> --restart=Never --labels=<key1=value1,key2=value2,key3=value3,...>
+For Example: kubectl run mysecondpod --image=aamirpinger/helloworld:latest --port=80 --restart=Never --labels=type=frontend,phase=development
+
