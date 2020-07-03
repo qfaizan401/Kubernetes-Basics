@@ -23,3 +23,4 @@ For Example: alias kgn="kubectl get nodes"
 --Port Frowarding--
 1- kubectl port-forward <pod_name> <local_port:Application_port>myfirstpod 3000:80
 For Example: kubectl port-forward myfirstpod 3000:80
+
