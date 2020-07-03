@@ -24,3 +24,6 @@ For Example: alias kgn="kubectl get nodes"
 1- kubectl port-forward <pod_name> <local_port:Application_port>myfirstpod 3000:80
 For Example: kubectl port-forward myfirstpod 3000:80
 
+--Creating Pods using CLI--
+1- kubectl run <Pod_Name> --image=<Image_Name:Tag> --port=<Port_Number> --restart=Never
+For Example: kubectl run mysecondpod --image=aamirpinger/helloworld:latest --port=80 --restart=Never
