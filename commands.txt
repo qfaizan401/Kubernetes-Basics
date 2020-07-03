@@ -46,3 +46,7 @@ For Example: kubectl label pods myfirstpod app=helloworld type=backend --overwri
 For Example: kubectl label pod myfirstpod app-
 
 --Label Selector--
+1- kubectl get pods -l <key=value> (To list down specific Pods/Resource)
+For Example: kubectl get pods -l type=frontend
+2- kubectl get pods -l type=frontend --show-labels
+3- kubectl get pods -l type!=frontend --show-labels (Reverse Order)
